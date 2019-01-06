@@ -1,0 +1,4 @@
+" ""vendor_data"" is Linux, ""product_data"" contains but is not ""linux_kernel""",
+CVE-2015-1142857,CWE-254
+CVE-2016-3707,CWE-284
+CVE-2016-5343,CWE-119

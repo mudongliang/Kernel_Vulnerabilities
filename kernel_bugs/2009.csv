@@ -1,0 +1,110 @@
+CVE-2009-0024,CWE-264
+CVE-2009-0028,CWE-264
+CVE-2009-0029,CWE-20
+CVE-2009-0031,CWE-399
+CVE-2009-0065,CWE-119
+CVE-2009-0269,CWE-399
+CVE-2009-0322,CWE-189,CWE-399
+CVE-2009-0605,CWE-119
+CVE-2009-0675,CWE-264
+CVE-2009-0676,CWE-264
+CVE-2009-0745,CWE-20
+CVE-2009-0746,CWE-20
+CVE-2009-0747,CWE-399
+CVE-2009-0748,CWE-20
+CVE-2009-0778,"$The icmp_send function in net/ipv4/icmp.c in the Linux kernel before 2.6.25, when configured as a router with a REJECT route, does not properly manage the Protocol Independent Destination Cache (aka DST) in some situations involving transmission of an ICMP Host Unreachable message, which allows remote attackers to cause a denial of service (connectivity outage) by sending a large series of packets to many destination IP addresses within this REJECT route, related to an ""rt_cache leak.""$"
+CVE-2009-0787,CWE-189
+CVE-2009-0834,CWE-264
+CVE-2009-0835,CWE-264
+CVE-2009-0859,CWE-20
+CVE-2009-0935,CWE-399
+CVE-2009-1046,CWE-399
+CVE-2009-1072,CWE-16
+CVE-2009-1184,CWE-16
+CVE-2009-1192,"$The (1) agp_generic_alloc_page and (2) agp_generic_alloc_pages functions in drivers/char/agp/generic.c in the agp subsystem in the Linux kernel before 2.6.30-rc3 do not zero out pages that may later be available to a user-space process, which allows local users to obtain sensitive information by reading these pages.$"
+CVE-2009-1242,CWE-264
+CVE-2009-1243,CWE-16
+CVE-2009-1265,CWE-189
+CVE-2009-1298,CWE-119
+CVE-2009-1336,CWE-20
+CVE-2009-1337,CWE-264
+CVE-2009-1338,CWE-264
+CVE-2009-1360,"$The __inet6_check_established function in net/ipv6/inet6_hashtables.c in the Linux kernel before 2.6.29, when Network Namespace Support (aka NET_NS) is enabled, allows remote attackers to cause a denial of service (NULL pointer dereference and system crash) via vectors involving IPv6 packets.$"
+CVE-2009-1385,CWE-189
+CVE-2009-1388,CWE-362
+CVE-2009-1389,CWE-119
+CVE-2009-1439,CWE-119
+CVE-2009-1527,CWE-362
+CVE-2009-1630,CWE-264
+CVE-2009-1633,CWE-119
+CVE-2009-1883,CWE-264
+CVE-2009-1895,CWE-16
+CVE-2009-1897,CWE-119
+CVE-2009-1914,CWE-20
+CVE-2009-1961,CWE-362
+CVE-2009-2287,CWE-20
+CVE-2009-2406,CWE-119
+CVE-2009-2407,CWE-119
+CVE-2009-2584,CWE-189
+CVE-2009-2691,CWE-200
+CVE-2009-2692,CWE-119
+CVE-2009-2695,CWE-119
+CVE-2009-2698,CWE-476
+CVE-2009-2767,CWE-119
+CVE-2009-2768,CWE-119
+CVE-2009-2844,CWE-399
+CVE-2009-2846,CWE-264
+CVE-2009-2847,NVD-CWE-noinfo
+CVE-2009-2848,"$The execve function in the Linux kernel, possibly 2.6.30-rc6 and earlier, does not properly clear the current->clear_child_tid pointer, which allows local users to cause a denial of service (memory corruption) or possibly gain privileges via a clone system call with CLONE_CHILD_SETTID or CLONE_CHILD_CLEARTID enabled, which is not properly handled during thread creation and exit.$"
+CVE-2009-2849,NVD-CWE-noinfo
+CVE-2009-2903,CWE-399
+CVE-2009-2908,"$The d_delete function in fs/ecryptfs/inode.c in eCryptfs in the Linux kernel 2.6.31 allows local users to cause a denial of service (kernel OOPS) and possibly execute arbitrary code via unspecified vectors that cause a ""negative dentry"" and trigger a NULL pointer dereference, as demonstrated via a Mutt temporary directory in an eCryptfs mount.$"
+CVE-2009-2909,CWE-189
+CVE-2009-2910,CWE-200
+CVE-2009-3001,CWE-200
+CVE-2009-3002,CWE-200
+CVE-2009-3043,CWE-399
+CVE-2009-3080,$Array index error in the gdth_read_event function in drivers/scsi/gdth.c in the Linux kernel before 2.6.32-rc8 allows local users to cause a denial of service or possibly gain privileges via a negative event index in an IOCTL request.$
+CVE-2009-3228,CWE-200
+CVE-2009-3234,CWE-119
+CVE-2009-3238,CWE-310
+CVE-2009-3280,CWE-119
+CVE-2009-3286,CWE-264
+CVE-2009-3288,CWE-119
+CVE-2009-3290,CWE-399
+CVE-2009-3547,CWE-362
+CVE-2009-3556,CWE-264
+CVE-2009-3612,CWE-200
+CVE-2009-3613,CWE-399
+CVE-2009-3620,CWE-20
+CVE-2009-3621,"$net/unix/af_unix.c in the Linux kernel 2.6.31.4 and earlier allows local users to cause a denial of service (system hang) by creating an abstract-namespace AF_UNIX listening socket, performing a shutdown operation on this socket, and then performing a series of connect operations to this socket.$"
+CVE-2009-3623,CWE-287
+CVE-2009-3624,CWE-310
+CVE-2009-3638,CWE-189
+CVE-2009-3640,CWE-20
+CVE-2009-3722,CWE-264
+CVE-2009-3725,CWE-264
+CVE-2009-3726,CWE-399
+CVE-2009-3888,CWE-399
+CVE-2009-3889,CWE-264
+CVE-2009-3939,CWE-264
+CVE-2009-4004,CWE-119
+CVE-2009-4005,CWE-119
+CVE-2009-4020,CWE-119
+CVE-2009-4021,CWE-399
+CVE-2009-4026,"$The mac80211 subsystem in the Linux kernel before 2.6.32-rc8-next-20091201 allows remote attackers to cause a denial of service (panic) via a crafted Delete Block ACK (aka DELBA) packet, related to an erroneous ""code shuffling patch.""$"
+CVE-2009-4027,CWE-362
+CVE-2009-4031,CWE-20
+CVE-2009-4131,CWE-264
+CVE-2009-4138,CWE-399
+CVE-2009-4141,CWE-399
+CVE-2009-4271,$The Linux kernel 2.6.9 through 2.6.17 on the x86_64 and amd64 platforms allows local users to cause a denial of service (panic) via a 32-bit application that calls mprotect on its Virtual Dynamic Shared Object (VDSO) page and then triggers a segmentation fault.$
+CVE-2009-4272,CWE-20
+CVE-2009-4306,NVD-CWE-noinfo
+CVE-2009-4307,CWE-189
+CVE-2009-4308,CWE-399
+CVE-2009-4410,"$The fuse_ioctl_copy_user function in the ioctl handler in fs/fuse/file.c in the Linux kernel 2.6.29-rc1 through 2.6.30.y uses the wrong variable in an argument to the kunmap function, which allows local users to cause a denial of service (panic) via unknown vectors.$"
+CVE-2009-4536,CWE-189
+CVE-2009-4537,CWE-20
+CVE-2009-4538,NVD-CWE-noinfo
+CVE-2009-4895,CWE-362
