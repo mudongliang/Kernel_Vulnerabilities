@@ -1,4 +1,4 @@
-# Use After Free Vulnerability in the Linux Kernel
+# Use After Free(CWE-416) and Double Free(CWE-415) in the Linux Kernel
 
 ## Sort by  Year
 
@@ -31,7 +31,7 @@
 - [ ] CVE-2017-16528
 - [ ] CVE-2017-16648
 - [ ] CVE-2017-17052
-- [ ] CVE-2017-17053
+- [x] CVE-2017-17053
 - [ ] CVE-2017-17975
 - [ ] CVE-2017-18017
 - [ ] CVE-2017-18174
@@ -59,8 +59,8 @@
 - [ ] CVE-2016-2384
 - [ ] CVE-2016-3841
 - [ ] CVE-2016-3951
-- [ ] CVE-2016-4470
-- [ ] CVE-2016-4557
+- [x] CVE-2016-4470
+- [x] CVE-2016-4557
 - [ ] CVE-2016-4558
 - [ ] CVE-2016-4794
 - [ ] CVE-2016-4805
