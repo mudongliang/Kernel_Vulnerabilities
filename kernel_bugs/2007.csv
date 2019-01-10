@@ -1,54 +1,54 @@
-CVE-2007-0006,"$The key serial number collision avoidance code in the key_alloc_serial function in Linux kernel 2.6.9 up to 2.6.20 allows local users to cause a denial of service (crash) via vectors that trigger a null dereference, as originally reported as ""spinlock CPU recursion.""$The scheme for selecting serial numbers was changed from incrementing a counter to random number selection, increasing the likelihood of a serial number collision.$"
+CVE-2007-0006,"The key serial number collision avoidance code in the key_alloc_serial function in Linux kernel 2.6.9 up to 2.6.20 allows local users to cause a denial of service (crash) via vectors that trigger a null dereference, as originally reported as ""spinlock CPU recursion.""$The scheme for selecting serial numbers was changed from incrementing a counter to random number selection, increasing the likelihood of a serial number collision.$"
 CVE-2007-0771,NVD-CWE-noinfo
 CVE-2007-0772,CWE-399
-CVE-2007-0822,"$umount, when running with the Linux 2.6.15 kernel on Slackware Linux 10.2, allows local users to trigger a NULL dereference and application crash by invoking the program with a pathname for a USB pen drive that was mounted and then physically removed, which might allow the users to obtain sensitive information, including core file contents.$"
-CVE-2007-0958,"$Linux kernel 2.6.x before 2.6.20 allows local users to read unreadable binaries by using the interpreter (PT_INTERP) functionality and triggering a core dump, a variant of CVE-2004-1073.$"
+CVE-2007-0822,"umount, when running with the Linux 2.6.15 kernel on Slackware Linux 10.2, allows local users to trigger a NULL dereference and application crash by invoking the program with a pathname for a USB pen drive that was mounted and then physically removed, which might allow the users to obtain sensitive information, including core file contents.$"
+CVE-2007-0958,"Linux kernel 2.6.x before 2.6.20 allows local users to read unreadable binaries by using the interpreter (PT_INTERP) functionality and triggering a core dump, a variant of CVE-2004-1073.$"
 CVE-2007-0997,CWE-362
-CVE-2007-1000,$The ipv6_getsockopt_sticky function in net/ipv6/ipv6_sockglue.c in the Linux kernel before 2.6.20.2 allows local users to read arbitrary kernel memory via certain getsockopt calls that trigger a NULL dereference.$
+CVE-2007-1000,The ipv6_getsockopt_sticky function in net/ipv6/ipv6_sockglue.c in the Linux kernel before 2.6.20.2 allows local users to read arbitrary kernel memory via certain getsockopt calls that trigger a NULL dereference.$
 CVE-2007-1217,CWE-119
-CVE-2007-1353,$The setsockopt function in the L2CAP and HCI Bluetooth support in the Linux kernel before 2.4.34.3 allows context-dependent attackers to read kernel memory and obtain sensitive information via unspecified vectors involving the copy_from_user function accessing an uninitialized stack buffer.$
-CVE-2007-1357,"$The atalk_sum_skb function in AppleTalk for Linux kernel 2.6.x before 2.6.21, and possibly 2.4.x, allows remote attackers to cause a denial of service (crash) via an AppleTalk frame that is shorter than the specified length, which triggers a BUG_ON call when an attempt is made to perform a checksum.$"
+CVE-2007-1353,The setsockopt function in the L2CAP and HCI Bluetooth support in the Linux kernel before 2.4.34.3 allows context-dependent attackers to read kernel memory and obtain sensitive information via unspecified vectors involving the copy_from_user function accessing an uninitialized stack buffer.$
+CVE-2007-1357,"The atalk_sum_skb function in AppleTalk for Linux kernel 2.6.x before 2.6.21, and possibly 2.4.x, allows remote attackers to cause a denial of service (crash) via an AppleTalk frame that is shorter than the specified length, which triggers a BUG_ON call when an attempt is made to perform a checksum.$"
 CVE-2007-1388,CWE-399
-CVE-2007-1496,"$nfnetlink_log in netfilter in the Linux kernel before 2.6.20.3 allows attackers to cause a denial of service (crash) via unspecified vectors involving the (1) nfulnl_recv_config function, (2) using ""multiple packets per netlink message"", and (3) bridged packets, which trigger a NULL pointer dereference.$"
-CVE-2007-1497,"$nf_conntrack in netfilter in the Linux kernel before 2.6.20.3 does not set nfctinfo during reassembly of fragmented packets, which leaves the default value as IP_CT_ESTABLISHED and might allow remote attackers to bypass certain rulesets using IPv6 fragments.$"
+CVE-2007-1496,"nfnetlink_log in netfilter in the Linux kernel before 2.6.20.3 allows attackers to cause a denial of service (crash) via unspecified vectors involving the (1) nfulnl_recv_config function, (2) using ""multiple packets per netlink message"", and (3) bridged packets, which trigger a NULL pointer dereference.$"
+CVE-2007-1497,"nf_conntrack in netfilter in the Linux kernel before 2.6.20.3 does not set nfctinfo during reassembly of fragmented packets, which leaves the default value as IP_CT_ESTABLISHED and might allow remote attackers to bypass certain rulesets using IPv6 fragments.$"
 CVE-2007-1592,CWE-119
-CVE-2007-1730,$Integer signedness error in the DCCP support in the do_dccp_getsockopt function in net/dccp/proto.c in Linux kernel 2.6.20 and later allows local users to read kernel memory or cause a denial of service (oops) via a negative optlen value.$
-CVE-2007-1734,"$The DCCP support in the do_dccp_getsockopt function in net/dccp/proto.c in Linux kernel 2.6.20 and later does not verify the upper bounds of the optlen value, which allows local users running on certain architectures to read kernel memory or cause a denial of service (oops), a related issue to CVE-2007-1730.$"
+CVE-2007-1730,Integer signedness error in the DCCP support in the do_dccp_getsockopt function in net/dccp/proto.c in Linux kernel 2.6.20 and later allows local users to read kernel memory or cause a denial of service (oops) via a negative optlen value.$
+CVE-2007-1734,"The DCCP support in the do_dccp_getsockopt function in net/dccp/proto.c in Linux kernel 2.6.20 and later does not verify the upper bounds of the optlen value, which allows local users running on certain architectures to read kernel memory or cause a denial of service (oops), a related issue to CVE-2007-1730.$"
 CVE-2007-1861,CWE-399
 CVE-2007-2172,CWE-20
-CVE-2007-2451,$Unspecified vulnerability in drivers/crypto/geode-aes.c in GEODE-AES in the Linux kernel before 2.6.21.3 allows attackers to obtain sensitive information via unspecified vectors.$
-CVE-2007-2453,"$The random number feature in Linux kernel 2.6 before 2.6.20.13, and 2.6.21.x before 2.6.21.4, (1) does not properly seed pools when there is no entropy, or (2) uses an incorrect cast when extracting entropy, which might cause the random number generator to provide the same values after reboots on systems without an entropy source.$"
-CVE-2007-2480,"$The _udp_lib_get_port function in net/ipv4/udp.c in Linux kernel 2.6.21 and earlier does not prevent a bind to a port with a local address when there is already a bind to that port with a wildcard local address, which might allow local users to intercept local traffic for daemons or other applications.$"
-CVE-2007-2525,"$Memory leak in the PPP over Ethernet (PPPoE) socket implementation in the Linux kernel before 2.6.21-git8 allows local users to cause a denial of service (memory consumption) by creating a socket using connect, and releasing it before the PPPIOCGCHAN ioctl is initialized.$"
+CVE-2007-2451,Unspecified vulnerability in drivers/crypto/geode-aes.c in GEODE-AES in the Linux kernel before 2.6.21.3 allows attackers to obtain sensitive information via unspecified vectors.$
+CVE-2007-2453,"The random number feature in Linux kernel 2.6 before 2.6.20.13, and 2.6.21.x before 2.6.21.4, (1) does not properly seed pools when there is no entropy, or (2) uses an incorrect cast when extracting entropy, which might cause the random number generator to provide the same values after reboots on systems without an entropy source.$"
+CVE-2007-2480,"The _udp_lib_get_port function in net/ipv4/udp.c in Linux kernel 2.6.21 and earlier does not prevent a bind to a port with a local address when there is already a bind to that port with a wildcard local address, which might allow local users to intercept local traffic for daemons or other applications.$"
+CVE-2007-2525,"Memory leak in the PPP over Ethernet (PPPoE) socket implementation in the Linux kernel before 2.6.21-git8 allows local users to cause a denial of service (memory consumption) by creating a socket using connect, and releasing it before the PPPIOCGCHAN ioctl is initialized.$"
 CVE-2007-2764,CWE-20
 CVE-2007-2875,CWE-189
-CVE-2007-2876,"$The sctp_new function in (1) ip_conntrack_proto_sctp.c and (2) nf_conntrack_proto_sctp.c in Netfilter in Linux kernel 2.6 before 2.6.20.13, and 2.6.21.x before 2.6.21.4, allows remote attackers to cause a denial of service by causing certain invalid states that trigger a NULL pointer dereference.$"
-CVE-2007-2878,"$The VFAT compat ioctls in the Linux kernel before 2.6.21.2, when run on a 64-bit system, allow local users to corrupt a kernel_dirent struct and cause a denial of service (system crash) via unknown vectors.$"
+CVE-2007-2876,"The sctp_new function in (1) ip_conntrack_proto_sctp.c and (2) nf_conntrack_proto_sctp.c in Netfilter in Linux kernel 2.6 before 2.6.20.13, and 2.6.21.x before 2.6.21.4, allows remote attackers to cause a denial of service by causing certain invalid states that trigger a NULL pointer dereference.$"
+CVE-2007-2878,"The VFAT compat ioctls in the Linux kernel before 2.6.21.2, when run on a 64-bit system, allow local users to corrupt a kernel_dirent struct and cause a denial of service (system crash) via unknown vectors.$"
 CVE-2007-3104,CWE-399
 CVE-2007-3105,CWE-119
-CVE-2007-3107,"$The signal handling in the Linux kernel before 2.6.22, including 2.6.2, when running on PowerPC systems using HTX, allows local users to cause a denial of service via unspecified vectors involving floating point corruption and concurrency, related to clearing of MSR bits.$This vulnerability affects Linux kernel 2.6.2 and later, when run on PowerPC systems using HTX.$"
+CVE-2007-3107,"The signal handling in the Linux kernel before 2.6.22, including 2.6.2, when running on PowerPC systems using HTX, allows local users to cause a denial of service via unspecified vectors involving floating point corruption and concurrency, related to clearing of MSR bits.$This vulnerability affects Linux kernel 2.6.2 and later, when run on PowerPC systems using HTX.$"
 CVE-2007-3380,CWE-16
-CVE-2007-3513,"$The lcd_write function in drivers/usb/misc/usblcd.c in the Linux kernel before 2.6.22-rc7 does not limit the amount of memory used by a caller, which allows local users to cause a denial of service (memory consumption).$"
+CVE-2007-3513,"The lcd_write function in drivers/usb/misc/usblcd.c in the Linux kernel before 2.6.22-rc7 does not limit the amount of memory used by a caller, which allows local users to cause a denial of service (memory consumption).$"
 CVE-2007-3642,CWE-189
-CVE-2007-3719,"$The process scheduler in the Linux kernel 2.6.16 gives preference to ""interactive"" processes that perform voluntary sleeps, which allows local users to cause a denial of service (CPU consumption), as described in ""Secretly Monopolizing the CPU Without Superuser Privileges.""$"
-CVE-2007-3720,"$The process scheduler in the Linux kernel 2.4 performs scheduling based on CPU billing gathered from periodic process sampling ticks, which allows local users to cause a denial of service (CPU consumption) by performing voluntary nanosecond sleeps that result in the process not being active during a clock interrupt, as described in ""Secretly Monopolizing the CPU Without Superuser Privileges.""$"
+CVE-2007-3719,"The process scheduler in the Linux kernel 2.6.16 gives preference to ""interactive"" processes that perform voluntary sleeps, which allows local users to cause a denial of service (CPU consumption), as described in ""Secretly Monopolizing the CPU Without Superuser Privileges.""$"
+CVE-2007-3720,"The process scheduler in the Linux kernel 2.4 performs scheduling based on CPU billing gathered from periodic process sampling ticks, which allows local users to cause a denial of service (CPU consumption) by performing voluntary nanosecond sleeps that result in the process not being active during a clock interrupt, as described in ""Secretly Monopolizing the CPU Without Superuser Privileges.""$"
 CVE-2007-3731,CWE-20
 CVE-2007-3740,CWE-264
-CVE-2007-3843,"$The Linux kernel before 2.6.23-rc1 checks the wrong global variable for the CIFS sec mount option, which might allow remote attackers to spoof CIFS network traffic that the client configured for security signatures, as demonstrated by lack of signing despite sec=ntlmv2i in a SetupAndX request.$"
-CVE-2007-3848,"$Linux kernel 2.4.35 and other versions allows local users to send arbitrary signals to a child process that is running at higher privileges by causing a setuid-root parent process to die, which delivers an attacker-controlled parent process death signal (PR_SET_PDEATHSIG).$"
+CVE-2007-3843,"The Linux kernel before 2.6.23-rc1 checks the wrong global variable for the CIFS sec mount option, which might allow remote attackers to spoof CIFS network traffic that the client configured for security signatures, as demonstrated by lack of signing despite sec=ntlmv2i in a SetupAndX request.$"
+CVE-2007-3848,"Linux kernel 2.4.35 and other versions allows local users to send arbitrary signals to a child process that is running at higher privileges by causing a setuid-root parent process to die, which delivers an attacker-controlled parent process death signal (PR_SET_PDEATHSIG).$"
 CVE-2007-3850,CWE-200
 CVE-2007-3851,CWE-399
-CVE-2007-4133,"$The (1) hugetlb_vmtruncate_list and (2) hugetlb_vmtruncate functions in fs/hugetlbfs/inode.c in the Linux kernel before 2.6.19-rc4 perform certain prio_tree calculations using HPAGE_SIZE instead of PAGE_SIZE units, which allows local users to cause a denial of service (panic) via unspecified vectors.$"
+CVE-2007-4133,"The (1) hugetlb_vmtruncate_list and (2) hugetlb_vmtruncate functions in fs/hugetlbfs/inode.c in the Linux kernel before 2.6.19-rc4 perform certain prio_tree calculations using HPAGE_SIZE instead of PAGE_SIZE units, which allows local users to cause a denial of service (panic) via unspecified vectors.$"
 CVE-2007-4311,CWE-310
 CVE-2007-4567,CWE-20
-CVE-2007-4571,"$The snd_mem_proc_read function in sound/core/memalloc.c in the Advanced Linux Sound Architecture (ALSA) in the Linux kernel before 2.6.22.8 does not return the correct write size, which allows local users to obtain sensitive information (kernel memory contents) via a small count argument, as demonstrated by multiple reads of /proc/driver/snd-page-alloc.$"
+CVE-2007-4571,"The snd_mem_proc_read function in sound/core/memalloc.c in the Advanced Linux Sound Architecture (ALSA) in the Linux kernel before 2.6.22.8 does not return the correct write size, which allows local users to obtain sensitive information (kernel memory contents) via a small count argument, as demonstrated by multiple reads of /proc/driver/snd-page-alloc.$"
 CVE-2007-4573,CWE-264
 CVE-2007-4997,CWE-189
 CVE-2007-4998,CWE-59
 CVE-2007-5087,CWE-264
 CVE-2007-5093,CWE-399
 CVE-2007-5498,CWE-399
-CVE-2007-5500,"$The wait_task_stopped function in the Linux kernel before 2.6.23.8 checks a TASK_TRACED bit instead of an exit_state value, which allows local users to cause a denial of service (machine crash) via unspecified vectors.  NOTE: some of these details are obtained from third party information.$"
+CVE-2007-5500,"The wait_task_stopped function in the Linux kernel before 2.6.23.8 checks a TASK_TRACED bit instead of an exit_state value, which allows local users to cause a denial of service (machine crash) via unspecified vectors.  NOTE: some of these details are obtained from third party information.$"
 CVE-2007-5501,CWE-399
 CVE-2007-5616,CWE-264
 CVE-2007-5904,CWE-119
@@ -59,6 +59,6 @@ CVE-2007-6206,CWE-16
 CVE-2007-6417,CWE-200,CWE-399
 CVE-2007-6434,CWE-264
 CVE-2007-6694,NVD-CWE-noinfo,CWE-399
-CVE-2007-6716,"$fs/direct-io.c in the dio subsystem in the Linux kernel before 2.6.23 does not properly zero out the dio struct, which allows local users to cause a denial of service (OOPS), as demonstrated by a certain fio test.$"
+CVE-2007-6716,"fs/direct-io.c in the dio subsystem in the Linux kernel before 2.6.23 does not properly zero out the dio struct, which allows local users to cause a denial of service (OOPS), as demonstrated by a certain fio test.$"
 CVE-2007-6733,CWE-399
 CVE-2007-6761,CWE-119

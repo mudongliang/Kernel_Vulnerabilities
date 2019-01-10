@@ -1,87 +1,87 @@
-CVE-1999-0061,"$File creation and deletion, and remote execution, in the BSD line printer daemon (lpd).$"
-CVE-1999-0074,"$Listening TCP ports are sequentially allocated, allowing spoofing attacks.$"
-CVE-1999-0128,"$Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death.$"
-CVE-1999-0138,"$The suidperl and sperl program do not give up root privileges when changing UIDs back to the original users, allowing root access.$"
-CVE-1999-0165,$NFS cache poisoning.$
-CVE-1999-0171,$Denial of service in syslog by sending it a large number of superfluous messages.$
-CVE-1999-0183,$Linux implementations of TFTP would allow access to files outside the restricted directory.$
-CVE-1999-0195,$Denial of service in RPC portmapper allows attackers to register or unregister RPC services or spoof RPC services using a spoofed source IP address such as 127.0.0.1.$
-CVE-1999-0216,$Denial of service of inetd on Linux through SYN and RST packets.$
-CVE-1999-0245,"$Some configurations of NIS+ in Linux allowed attackers to log in as the user ""+"".$"
-CVE-1999-0257,$Nestea variation of teardrop IP fragmentation denial of service.$
-CVE-1999-0317,$Buffer overflow in Linux su command gives root access to local users.$
-CVE-1999-0330,$Linux bdash game has a buffer overflow that allows local users to gain root access.$
-CVE-1999-0335,$DEPRECATED.  This entry has been deprecated.  It is a duplicate of CVE-1999-0032.$
-CVE-1999-0381,$super 3.11.6 and other versions have a buffer overflow in the syslog utility which allows a local user to gain root access.$
-CVE-1999-0400,$Denial of service in Linux 2.2.0 running the ldd command on a core file.$
-CVE-1999-0401,$A race condition in Linux 2.2.1 allows local users to read arbitrary memory from /proc files.$
-CVE-1999-0414,"$In Linux before version 2.0.36, remote attackers can spoof a TCP connection and pass data to the application layer before fully establishing the connection.$"
-CVE-1999-0431,"$Linux 2.2.3 and earlier allow a remote attacker to perform an IP fragmentation attack, causing a denial of service.$This problem was fixed in Linux kernel 2.2.4 and later releases.$"
-CVE-1999-0451,$Denial of service in Linux 2.0.36 allows local users to prevent any server from listening on any non-privileged port.$
-CVE-1999-0460,$Buffer overflow in Linux autofs module through long directory names allows local users to perform a denial of service.$
-CVE-1999-0461,"$Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.$"
-CVE-1999-0513,"$ICMP messages to broadcast addresses are allowed, allowing for a Smurf attack that can cause a denial of service.$"
+CVE-1999-0061,"File creation and deletion, and remote execution, in the BSD line printer daemon (lpd).$"
+CVE-1999-0074,"Listening TCP ports are sequentially allocated, allowing spoofing attacks.$"
+CVE-1999-0128,"Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death.$"
+CVE-1999-0138,"The suidperl and sperl program do not give up root privileges when changing UIDs back to the original users, allowing root access.$"
+CVE-1999-0165,NFS cache poisoning.$
+CVE-1999-0171,Denial of service in syslog by sending it a large number of superfluous messages.$
+CVE-1999-0183,Linux implementations of TFTP would allow access to files outside the restricted directory.$
+CVE-1999-0195,Denial of service in RPC portmapper allows attackers to register or unregister RPC services or spoof RPC services using a spoofed source IP address such as 127.0.0.1.$
+CVE-1999-0216,Denial of service of inetd on Linux through SYN and RST packets.$
+CVE-1999-0245,"Some configurations of NIS+ in Linux allowed attackers to log in as the user ""+"".$"
+CVE-1999-0257,Nestea variation of teardrop IP fragmentation denial of service.$
+CVE-1999-0317,Buffer overflow in Linux su command gives root access to local users.$
+CVE-1999-0330,Linux bdash game has a buffer overflow that allows local users to gain root access.$
+CVE-1999-0335,DEPRECATED.  This entry has been deprecated.  It is a duplicate of CVE-1999-0032.$
+CVE-1999-0381,super 3.11.6 and other versions have a buffer overflow in the syslog utility which allows a local user to gain root access.$
+CVE-1999-0400,Denial of service in Linux 2.2.0 running the ldd command on a core file.$
+CVE-1999-0401,A race condition in Linux 2.2.1 allows local users to read arbitrary memory from /proc files.$
+CVE-1999-0414,"In Linux before version 2.0.36, remote attackers can spoof a TCP connection and pass data to the application layer before fully establishing the connection.$"
+CVE-1999-0431,"Linux 2.2.3 and earlier allow a remote attacker to perform an IP fragmentation attack, causing a denial of service.$This problem was fixed in Linux kernel 2.2.4 and later releases.$"
+CVE-1999-0451,Denial of service in Linux 2.0.36 allows local users to prevent any server from listening on any non-privileged port.$
+CVE-1999-0460,Buffer overflow in Linux autofs module through long directory names allows local users to perform a denial of service.$
+CVE-1999-0461,"Versions of rpcbind including Linux, IRIX, and Wietse Venema's rpcbind allow a remote attacker to insert and delete entries by spoofing a source address.$"
+CVE-1999-0513,"ICMP messages to broadcast addresses are allowed, allowing for a Smurf attack that can cause a denial of service.$"
 CVE-1999-0524,NVD-CWE-noinfo,CWE-200
-CVE-1999-0590,$A system does not present an appropriate legal message or warning to a user who is accessing it.$
-CVE-1999-0628,"$The rwho/rwhod service is running, which exposes machine status and user information.$"
+CVE-1999-0590,A system does not present an appropriate legal message or warning to a user who is accessing it.$
+CVE-1999-0628,"The rwho/rwhod service is running, which exposes machine status and user information.$"
 CVE-1999-0656,CWE-16
-CVE-1999-0720,$The pt_chown command in Linux allows local users to modify TTY terminal devices that belong to other users.$
-CVE-1999-0780,$KDE klock allows local users to kill arbitrary processes by specifying an arbitrary PID in the .kss.pid file.$
-CVE-1999-0781,$KDE allows local users to execute arbitrary commands by setting the KDEDIR environmental variable to modify the search path that KDE uses to locate its executables.$
-CVE-1999-0782,$KDE kppp allows local users to create a directory in an arbitrary location via the HOME environmental variable.$
-CVE-1999-0804,"$Denial of service in Linux 2.2.x kernels via malformed ICMP packets containing unusual types, codes, and IP header lengths.$"
-CVE-1999-0986,$The ping command in Linux 2.0.3x allows local users to cause a denial of service by sending large packets with the -R (record route) option.$
-CVE-1999-1018,"$IPChains in Linux kernels 2.2.10 and earlier does not reassemble IP fragments before checking the header information, which allows a remote attacker to bypass the filtering rules using several fragments with 0 offsets.$"
-CVE-1999-1166,"$Linux 2.0.37 does not properly encode the Custom segment limit, which allows local users to gain root privileges by accessing and modifying kernel memory.$"
-CVE-1999-1225,"$rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.$"
-CVE-1999-1276,"$fte-console in the fte package before 0.46b-4.1 does not drop root privileges, which allows local users to gain root access via the virtual console device.$"
-CVE-1999-1285,"$Linux 2.1.132 and earlier allows local users to cause a denial of service (resource exhaustion) by reading a large buffer from a random device (e.g. /dev/urandom), which cannot be interrupted until the read has completed.$"
-CVE-1999-1339,"$Vulnerability when Network Address Translation (NAT) is enabled in Linux 2.2.10 and earlier with ipchains, or FreeBSD 3.2 with ipfw, allows remote attackers to cause a denial of service (kernel panic) via a ping -R (record route) command.$"
-CVE-1999-1341,"$Linux kernel before 2.3.18 or 2.2.13pre15, with SLIP and PPP options, allows local unprivileged users to forge IP packets via the TIOCSETD option on tty devices.$"
-CVE-1999-1352,"$mknod in Linux 2.2 follows symbolic links, which could allow local users to overwrite files or gain privileges.$"
-CVE-1999-1441,"$Linux 2.0.34 does not properly prevent users from sending SIGIO signals to arbitrary processes, which allows local users to cause a denial of service by sending SIGIO to processes that do not catch it.$"
-CVE-1999-1442,"$Bug in AMD K6 processor on Linux 2.0.x and 2.1.x kernels allows local users to cause a denial of service (crash) via a particular sequence of instructions, possibly related to accessing addresses outside of segments.$"
-CVE-2000-0006,$strace allows local users to read arbitrary files via memory mapped file names.$
-CVE-2000-0227,"$The Linux 2.2.x kernel does not restrict the number of Unix domain sockets as defined by the wmem_max parameter, which allows local users to cause a denial of service by requesting a large number of sockets.$"
-CVE-2000-0289,$IP masquerading in Linux 2.2.x allows remote attackers to route UDP packets through the internal interface by modifying the external source IP address and port number to match those of an established connection.$
-CVE-2000-0344,$The knfsd NFS server in Linux kernel 2.2.x allows remote attackers to cause a denial of service via a negative size value.$
-CVE-2000-0506,"$The ""capabilities"" feature in Linux before 2.2.16 allows local users to cause a denial of service or gain privileges by setting the capabilities to prevent a setuid program from dropping privileges, aka the ""Linux kernel setuid/setcap vulnerability.""$"
-CVE-2001-0316,$Linux kernel 2.4 and 2.2 allows local users to read kernel memory and possibly gain privileges via a negative argument to the sysctl call.$
-CVE-2001-0317,$Race condition in ptrace in Linux kernel 2.4 and 2.2 allows local users to gain privileges by using ptrace to track and modify a running setuid process.$
-CVE-2001-0405,"$ip_conntrack_ftp in the IPTables firewall for Linux 2.4 allows remote attackers to bypass access restrictions for an FTP server via a PORT command that lists an arbitrary IP address and port number, which is added to the RELATED table and allowed by the firewall.$"
-CVE-2001-0851,"$Linux kernel 2.0, 2.2 and 2.4 with syncookies enabled allows remote attackers to bypass firewall rules by brute force guessing the cookie.$"
-CVE-2001-0907,"$Linux kernel 2.2.1 through 2.2.19, and 2.4.1 through 2.4.10, allows local users to cause a denial of service via a series of deeply nested symlinks, which causes the kernel to spend extra time when trying to access the link.$"
-CVE-2001-0914,"$Linux kernel before 2.4.11pre3 in multiple Linux distributions allows local users to cause a denial of service (crash) by starting the core vmlinux kernel, possibly related to poor error checking during ELF loading.$"
-CVE-2001-1056,"$IRC DCC helper in the ip_masq_irc IP masquerading module 2.2 allows remote attackers to bypass intended firewall restrictions by causing the target system to send a ""DCC SEND"" request to a malicious server which listens on port 6667, which may cause the module to believe that the traffic is a valid request and allow the connection to the port specified in the DCC SEND request.$"
-CVE-2001-1244,"$Multiple TCP implementations could allow remote attackers to cause a denial of service (bandwidth and CPU exhaustion) by setting the maximum segment size (MSS) to a very small number and requesting large amounts of data, which generates more packets with less TCP-level data that amplify network traffic and consume more server CPU to process.$"
-CVE-2001-1273,"$The ""mxcsr P4"" vulnerability in the Linux kernel before 2.2.17-14, when running on certain Intel CPUs, allows local users to cause a denial of service (system halt).$"
-CVE-2001-1384,"$ptrace in Linux 2.2.x through 2.2.19, and 2.4.x through 2.4.9, allows local users to gain root privileges by running ptrace on a setuid or setgid program that itself calls an unprivileged program, such as newgrp.$"
-CVE-2001-1390,"$Unknown vulnerability in binfmt_misc in the Linux kernel before 2.2.19, related to user pages.$"
-CVE-2001-1391,$Off-by-one vulnerability in CPIA driver of Linux kernel before 2.2.19 allows users to modify kernel memory.$
-CVE-2001-1392,"$The Linux kernel before 2.2.19 does not have unregister calls for (1) CPUID and (2) MSR drivers, which could cause a DoS (crash) by unloading and reloading the drivers.$"
-CVE-2001-1393,$Unknown vulnerability in classifier code for Linux kernel before 2.2.19 could result in denial of service (hang).$
-CVE-2001-1394,$Signedness error in (1) getsockopt and (2) setsockopt for Linux kernel before 2.2.19 allows local users to cause a denial of service.$
-CVE-2001-1395,"$Unknown vulnerability in sockfilter for Linux kernel before 2.2.19 related to ""boundary cases,"" with unknown impact.$"
-CVE-2001-1396,"$Unknown vulnerabilities in strnlen_user for Linux kernel before 2.2.19, with unknown impact.$"
-CVE-2001-1397,$The System V (SYS5) shared memory implementation for Linux kernel before 2.2.19 could allow attackers to modify recently freed memory.$
-CVE-2001-1398,"$Masquerading code for Linux kernel before 2.2.19 does not fully check packet lengths in certain cases, which may lead to a vulnerability.$"
-CVE-2001-1399,"$Certain operations in Linux kernel before 2.2.19 on the x86 architecture copy the wrong number of bytes, which might allow attackers to modify memory, aka ""User access asm bug on x86.""$"
-CVE-2001-1400,$Unknown vulnerabilities in the UDP port allocation for Linux kernel before 2.2.19 could allow local users to cause a denial of service (deadlock).$
-CVE-2001-1551,"$Linux kernel 2.2.19 enables CAP_SYS_RESOURCE for setuid processes, which allows local users to exceed disk quota restrictions during execution of setuid programs.$"
-CVE-2001-1572,"$The MAC module in Netfilter in Linux kernel 2.4.1 through 2.4.11, when configured to filter based on MAC addresses, allows remote attackers to bypass packet filters via small packets.$"
-CVE-2002-0046,"$Linux kernel, and possibly other operating systems, allows remote attackers to read portions of memory via a series of fragmented ICMP packets that generate an ICMP TTL Exceeded response, which includes portions of the memory in the response packet.$"
-CVE-2002-0060,"$IRC connection tracking helper module in the netfilter subsystem for Linux 2.4.18-pre9 and earlier does not properly set the mask for conntrack expectations for incoming DCC connections, which could allow remote attackers to bypass intended firewall restrictions.$"
-CVE-2002-0429,$The iBCS routines in arch/i386/kernel/traps.c for Linux kernels 2.4.18 and earlier on x86 systems allow local users to kill arbitrary processes via a a binary compatibility interface (lcall).$
-CVE-2002-0499,"$The d_path function in Linux kernel 2.2.20 and earlier, and 2.4.18 and earlier, truncates long pathnames without generating an error, which could allow local users to force programs to perform inappropriate operations on the wrong directories.$"
-CVE-2002-0510,"$The UDP implementation in Linux 2.4.x kernels keeps the IP Identification field at 0 for all non-fragmented packets, which could allow remote attackers to determine that a target system is running Linux.$"
-CVE-2002-0570,"$The encrypted loop device in Linux kernel 2.4.10 and earlier does not authenticate the entity that is encrypting data, which allows local users to modify encrypted data without knowing the key.$"
-CVE-2002-0704,"$The Network Address Translation (NAT) capability for Netfilter (""iptables"") 1.2.6a and earlier leaks translated IP addresses in ICMP error messages.$"
-CVE-2002-1319,"$The Linux kernel 2.4.20 and earlier, and 2.5.x, when running on x86 systems, allows local users to cause a denial of service (hang) via the emulation mode, which does not properly clear TF and NT EFLAGs.$"
-CVE-2002-1380,$Linux kernel 2.2.x allows local users to cause a denial of service (crash) by using the mmap() function with a PROT_READ parameter to access non-readable memory pages through the /proc/pid/mem interface.$
-CVE-2002-1571,"$The linux 2.4 kernel before 2.4.19 assumes that the fninit instruction clears all registers, which could lead to an information leak on processors that do not clear all relevant SSE registers.$"
-CVE-2002-1572,$Signed integer overflow in the bttv_read function in the bttv driver (bttv-driver.c) in Linux kernel before 2.4.20 has unknown impact and attack vectors.$
-CVE-2002-1573,"$Unspecified vulnerability in the pcilynx ieee1394 firewire driver (pcilynx.c) in Linux kernel before 2.4.20 has unknown impact and attack vectors, related to ""wrap handling.""$"
-CVE-2002-1574,$Buffer overflow in the ixj telephony card driver in Linux before 2.4.20 has unknown impact and attack vectors.$
-CVE-2002-1963,"$Linux kernel 2.4.1 through 2.4.19 sets root's NR_RESERVED_FILES limit to 10 files, which allows local users to cause a denial of service (resource exhaustion) by opening 10 setuid binaries.$"
-CVE-2002-1976,"$ifconfig, when used on the Linux kernel 2.2 and later, does not report when the network interface is in promiscuous mode if it was put in promiscuous mode using PACKET_MR_PROMISC, which could allow attackers to sniff the network without detection, as demonstrated using libpcap.$"
+CVE-1999-0720,The pt_chown command in Linux allows local users to modify TTY terminal devices that belong to other users.$
+CVE-1999-0780,KDE klock allows local users to kill arbitrary processes by specifying an arbitrary PID in the .kss.pid file.$
+CVE-1999-0781,KDE allows local users to execute arbitrary commands by setting the KDEDIR environmental variable to modify the search path that KDE uses to locate its executables.$
+CVE-1999-0782,KDE kppp allows local users to create a directory in an arbitrary location via the HOME environmental variable.$
+CVE-1999-0804,"Denial of service in Linux 2.2.x kernels via malformed ICMP packets containing unusual types, codes, and IP header lengths.$"
+CVE-1999-0986,The ping command in Linux 2.0.3x allows local users to cause a denial of service by sending large packets with the -R (record route) option.$
+CVE-1999-1018,"IPChains in Linux kernels 2.2.10 and earlier does not reassemble IP fragments before checking the header information, which allows a remote attacker to bypass the filtering rules using several fragments with 0 offsets.$"
+CVE-1999-1166,"Linux 2.0.37 does not properly encode the Custom segment limit, which allows local users to gain root privileges by accessing and modifying kernel memory.$"
+CVE-1999-1225,"rpc.mountd on Linux, Ultrix, and possibly other operating systems, allows remote attackers to determine the existence of a file on the server by attempting to mount that file, which generates different error messages depending on whether the file exists or not.$"
+CVE-1999-1276,"fte-console in the fte package before 0.46b-4.1 does not drop root privileges, which allows local users to gain root access via the virtual console device.$"
+CVE-1999-1285,"Linux 2.1.132 and earlier allows local users to cause a denial of service (resource exhaustion) by reading a large buffer from a random device (e.g. /dev/urandom), which cannot be interrupted until the read has completed.$"
+CVE-1999-1339,"Vulnerability when Network Address Translation (NAT) is enabled in Linux 2.2.10 and earlier with ipchains, or FreeBSD 3.2 with ipfw, allows remote attackers to cause a denial of service (kernel panic) via a ping -R (record route) command.$"
+CVE-1999-1341,"Linux kernel before 2.3.18 or 2.2.13pre15, with SLIP and PPP options, allows local unprivileged users to forge IP packets via the TIOCSETD option on tty devices.$"
+CVE-1999-1352,"mknod in Linux 2.2 follows symbolic links, which could allow local users to overwrite files or gain privileges.$"
+CVE-1999-1441,"Linux 2.0.34 does not properly prevent users from sending SIGIO signals to arbitrary processes, which allows local users to cause a denial of service by sending SIGIO to processes that do not catch it.$"
+CVE-1999-1442,"Bug in AMD K6 processor on Linux 2.0.x and 2.1.x kernels allows local users to cause a denial of service (crash) via a particular sequence of instructions, possibly related to accessing addresses outside of segments.$"
+CVE-2000-0006,strace allows local users to read arbitrary files via memory mapped file names.$
+CVE-2000-0227,"The Linux 2.2.x kernel does not restrict the number of Unix domain sockets as defined by the wmem_max parameter, which allows local users to cause a denial of service by requesting a large number of sockets.$"
+CVE-2000-0289,IP masquerading in Linux 2.2.x allows remote attackers to route UDP packets through the internal interface by modifying the external source IP address and port number to match those of an established connection.$
+CVE-2000-0344,The knfsd NFS server in Linux kernel 2.2.x allows remote attackers to cause a denial of service via a negative size value.$
+CVE-2000-0506,"The ""capabilities"" feature in Linux before 2.2.16 allows local users to cause a denial of service or gain privileges by setting the capabilities to prevent a setuid program from dropping privileges, aka the ""Linux kernel setuid/setcap vulnerability.""$"
+CVE-2001-0316,Linux kernel 2.4 and 2.2 allows local users to read kernel memory and possibly gain privileges via a negative argument to the sysctl call.$
+CVE-2001-0317,Race condition in ptrace in Linux kernel 2.4 and 2.2 allows local users to gain privileges by using ptrace to track and modify a running setuid process.$
+CVE-2001-0405,"ip_conntrack_ftp in the IPTables firewall for Linux 2.4 allows remote attackers to bypass access restrictions for an FTP server via a PORT command that lists an arbitrary IP address and port number, which is added to the RELATED table and allowed by the firewall.$"
+CVE-2001-0851,"Linux kernel 2.0, 2.2 and 2.4 with syncookies enabled allows remote attackers to bypass firewall rules by brute force guessing the cookie.$"
+CVE-2001-0907,"Linux kernel 2.2.1 through 2.2.19, and 2.4.1 through 2.4.10, allows local users to cause a denial of service via a series of deeply nested symlinks, which causes the kernel to spend extra time when trying to access the link.$"
+CVE-2001-0914,"Linux kernel before 2.4.11pre3 in multiple Linux distributions allows local users to cause a denial of service (crash) by starting the core vmlinux kernel, possibly related to poor error checking during ELF loading.$"
+CVE-2001-1056,"IRC DCC helper in the ip_masq_irc IP masquerading module 2.2 allows remote attackers to bypass intended firewall restrictions by causing the target system to send a ""DCC SEND"" request to a malicious server which listens on port 6667, which may cause the module to believe that the traffic is a valid request and allow the connection to the port specified in the DCC SEND request.$"
+CVE-2001-1244,"Multiple TCP implementations could allow remote attackers to cause a denial of service (bandwidth and CPU exhaustion) by setting the maximum segment size (MSS) to a very small number and requesting large amounts of data, which generates more packets with less TCP-level data that amplify network traffic and consume more server CPU to process.$"
+CVE-2001-1273,"The ""mxcsr P4"" vulnerability in the Linux kernel before 2.2.17-14, when running on certain Intel CPUs, allows local users to cause a denial of service (system halt).$"
+CVE-2001-1384,"ptrace in Linux 2.2.x through 2.2.19, and 2.4.x through 2.4.9, allows local users to gain root privileges by running ptrace on a setuid or setgid program that itself calls an unprivileged program, such as newgrp.$"
+CVE-2001-1390,"Unknown vulnerability in binfmt_misc in the Linux kernel before 2.2.19, related to user pages.$"
+CVE-2001-1391,Off-by-one vulnerability in CPIA driver of Linux kernel before 2.2.19 allows users to modify kernel memory.$
+CVE-2001-1392,"The Linux kernel before 2.2.19 does not have unregister calls for (1) CPUID and (2) MSR drivers, which could cause a DoS (crash) by unloading and reloading the drivers.$"
+CVE-2001-1393,Unknown vulnerability in classifier code for Linux kernel before 2.2.19 could result in denial of service (hang).$
+CVE-2001-1394,Signedness error in (1) getsockopt and (2) setsockopt for Linux kernel before 2.2.19 allows local users to cause a denial of service.$
+CVE-2001-1395,"Unknown vulnerability in sockfilter for Linux kernel before 2.2.19 related to ""boundary cases,"" with unknown impact.$"
+CVE-2001-1396,"Unknown vulnerabilities in strnlen_user for Linux kernel before 2.2.19, with unknown impact.$"
+CVE-2001-1397,The System V (SYS5) shared memory implementation for Linux kernel before 2.2.19 could allow attackers to modify recently freed memory.$
+CVE-2001-1398,"Masquerading code for Linux kernel before 2.2.19 does not fully check packet lengths in certain cases, which may lead to a vulnerability.$"
+CVE-2001-1399,"Certain operations in Linux kernel before 2.2.19 on the x86 architecture copy the wrong number of bytes, which might allow attackers to modify memory, aka ""User access asm bug on x86.""$"
+CVE-2001-1400,Unknown vulnerabilities in the UDP port allocation for Linux kernel before 2.2.19 could allow local users to cause a denial of service (deadlock).$
+CVE-2001-1551,"Linux kernel 2.2.19 enables CAP_SYS_RESOURCE for setuid processes, which allows local users to exceed disk quota restrictions during execution of setuid programs.$"
+CVE-2001-1572,"The MAC module in Netfilter in Linux kernel 2.4.1 through 2.4.11, when configured to filter based on MAC addresses, allows remote attackers to bypass packet filters via small packets.$"
+CVE-2002-0046,"Linux kernel, and possibly other operating systems, allows remote attackers to read portions of memory via a series of fragmented ICMP packets that generate an ICMP TTL Exceeded response, which includes portions of the memory in the response packet.$"
+CVE-2002-0060,"IRC connection tracking helper module in the netfilter subsystem for Linux 2.4.18-pre9 and earlier does not properly set the mask for conntrack expectations for incoming DCC connections, which could allow remote attackers to bypass intended firewall restrictions.$"
+CVE-2002-0429,The iBCS routines in arch/i386/kernel/traps.c for Linux kernels 2.4.18 and earlier on x86 systems allow local users to kill arbitrary processes via a a binary compatibility interface (lcall).$
+CVE-2002-0499,"The d_path function in Linux kernel 2.2.20 and earlier, and 2.4.18 and earlier, truncates long pathnames without generating an error, which could allow local users to force programs to perform inappropriate operations on the wrong directories.$"
+CVE-2002-0510,"The UDP implementation in Linux 2.4.x kernels keeps the IP Identification field at 0 for all non-fragmented packets, which could allow remote attackers to determine that a target system is running Linux.$"
+CVE-2002-0570,"The encrypted loop device in Linux kernel 2.4.10 and earlier does not authenticate the entity that is encrypting data, which allows local users to modify encrypted data without knowing the key.$"
+CVE-2002-0704,"The Network Address Translation (NAT) capability for Netfilter (""iptables"") 1.2.6a and earlier leaks translated IP addresses in ICMP error messages.$"
+CVE-2002-1319,"The Linux kernel 2.4.20 and earlier, and 2.5.x, when running on x86 systems, allows local users to cause a denial of service (hang) via the emulation mode, which does not properly clear TF and NT EFLAGs.$"
+CVE-2002-1380,Linux kernel 2.2.x allows local users to cause a denial of service (crash) by using the mmap() function with a PROT_READ parameter to access non-readable memory pages through the /proc/pid/mem interface.$
+CVE-2002-1571,"The linux 2.4 kernel before 2.4.19 assumes that the fninit instruction clears all registers, which could lead to an information leak on processors that do not clear all relevant SSE registers.$"
+CVE-2002-1572,Signed integer overflow in the bttv_read function in the bttv driver (bttv-driver.c) in Linux kernel before 2.4.20 has unknown impact and attack vectors.$
+CVE-2002-1573,"Unspecified vulnerability in the pcilynx ieee1394 firewire driver (pcilynx.c) in Linux kernel before 2.4.20 has unknown impact and attack vectors, related to ""wrap handling.""$"
+CVE-2002-1574,Buffer overflow in the ixj telephony card driver in Linux before 2.4.20 has unknown impact and attack vectors.$
+CVE-2002-1963,"Linux kernel 2.4.1 through 2.4.19 sets root's NR_RESERVED_FILES limit to 10 files, which allows local users to cause a denial of service (resource exhaustion) by opening 10 setuid binaries.$"
+CVE-2002-1976,"ifconfig, when used on the Linux kernel 2.2 and later, does not report when the network interface is in promiscuous mode if it was put in promiscuous mode using PACKET_MR_PROMISC, which could allow attackers to sniff the network without detection, as demonstrated using libpcap.$"
 CVE-2002-2254,CWE-264

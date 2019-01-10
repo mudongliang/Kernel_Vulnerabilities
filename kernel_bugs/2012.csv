@@ -1,15 +1,15 @@
 CVE-2012-0028,CWE-264
 CVE-2012-0038,CWE-189
 CVE-2012-0044,CWE-189
-CVE-2012-0045,"$The em_syscall function in arch/x86/kvm/emulate.c in the KVM implementation in the Linux kernel before 3.2.14 does not properly handle the 0f05 (aka syscall) opcode, which allows guest OS users to cause a denial of service (guest OS crash) via a crafted application, as demonstrated by an NASM file.$"
+CVE-2012-0045,"The em_syscall function in arch/x86/kvm/emulate.c in the KVM implementation in the Linux kernel before 3.2.14 does not properly handle the 0f05 (aka syscall) opcode, which allows guest OS users to cause a denial of service (guest OS crash) via a crafted application, as demonstrated by an NASM file.$"
 CVE-2012-0056,CWE-264
 CVE-2012-0058,CWE-399
 CVE-2012-0207,CWE-399
 CVE-2012-0879,CWE-20
 CVE-2012-0957,CWE-16
 CVE-2012-1090,CWE-264
-CVE-2012-1097,"$The regset (aka register set) feature in the Linux kernel before 3.2.10 does not properly handle the absence of .get and .set methods, which allows local users to cause a denial of service (NULL pointer dereference) or possibly have unspecified other impact via a (1) PTRACE_GETREGSET or (2) PTRACE_SETREGSET ptrace call.$"
-CVE-2012-1146,"$The mem_cgroup_usage_unregister_event function in mm/memcontrol.c in the Linux kernel before 3.2.10 does not properly handle multiple events that are attached to the same eventfd, which allows local users to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact by registering memory threshold events.$"
+CVE-2012-1097,"The regset (aka register set) feature in the Linux kernel before 3.2.10 does not properly handle the absence of .get and .set methods, which allows local users to cause a denial of service (NULL pointer dereference) or possibly have unspecified other impact via a (1) PTRACE_GETREGSET or (2) PTRACE_SETREGSET ptrace call.$"
+CVE-2012-1146,"The mem_cgroup_usage_unregister_event function in mm/memcontrol.c in the Linux kernel before 3.2.10 does not properly handle multiple events that are attached to the same eventfd, which allows local users to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact by registering memory threshold events.$"
 CVE-2012-1179,CWE-264
 CVE-2012-1583,CWE-399
 CVE-2012-1601,CWE-399
@@ -33,7 +33,7 @@ CVE-2012-2669,CWE-20
 CVE-2012-2744,CWE-476
 CVE-2012-2745,CWE-119
 CVE-2012-3364,CWE-119
-CVE-2012-3375,"$The epoll_ctl system call in fs/eventpoll.c in the Linux kernel before 3.2.24 does not properly handle ELOOP errors in EPOLL_CTL_ADD operations, which allows local users to cause a denial of service (file-descriptor consumption and system crash) via a crafted application that attempts to create a circular epoll dependency.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2011-1083.$"
+CVE-2012-3375,"The epoll_ctl system call in fs/eventpoll.c in the Linux kernel before 3.2.24 does not properly handle ELOOP errors in EPOLL_CTL_ADD operations, which allows local users to cause a denial of service (file-descriptor consumption and system crash) via a crafted application that attempts to create a circular epoll dependency.  NOTE: this vulnerability exists because of an incorrect fix for CVE-2011-1083.$"
 CVE-2012-3400,CWE-119
 CVE-2012-3412,CWE-189
 CVE-2012-3430,CWE-200

@@ -30,7 +30,7 @@ CVE-2014-2608,NVD-CWE-noinfo
 CVE-2014-2648,NVD-CWE-noinfo
 CVE-2014-2672,CWE-362
 CVE-2014-2673,CWE-20
-CVE-2014-2678,$The rds_iw_laddr_check function in net/rds/iw.c in the Linux kernel through 3.14 allows local users to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact via a bind system call for an RDS socket on a system that lacks RDS transports.$
+CVE-2014-2678,The rds_iw_laddr_check function in net/rds/iw.c in the Linux kernel through 3.14 allows local users to cause a denial of service (NULL pointer dereference and system crash) or possibly have unspecified other impact via a bind system call for an RDS socket on a system that lacks RDS transports.$
 CVE-2014-2706,CWE-362
 CVE-2014-2739,CWE-20
 CVE-2014-2851,CWE-189
@@ -64,12 +64,11 @@ CVE-2014-3985,CWE-119
 CVE-2014-4014,CWE-264
 CVE-2014-4027,CWE-264
 CVE-2014-4157,CWE-264
-CVE-2014-4171,"$mm/shmem.c in the Linux kernel through 3.15.1 does not properly implement the interaction between range notification and hole punching, which allows local users to cause a denial of service (i_mutex hold) by using the mmap system call to access a hole, as demonstrated by interfering with intended shmem activity by blocking completion of (1) an MADV_REMOVE madvise call or (2) an FALLOC_FL_PUNCH_HOLE fallocate call.$"
+CVE-2014-4171,"mm/shmem.c in the Linux kernel through 3.15.1 does not properly implement the interaction between range notification and hole punching, which allows local users to cause a denial of service (i_mutex hold) by using the mmap system call to access a hole, as demonstrated by interfering with intended shmem activity by blocking completion of (1) an MADV_REMOVE madvise call or (2) an FALLOC_FL_PUNCH_HOLE fallocate call.$"
 CVE-2014-4322,CWE-119
 CVE-2014-4323,CWE-264
 CVE-2014-4508,CWE-189
 CVE-2014-4608,CWE-119
-CVE-2014-4611,CWE-20
 CVE-2014-4652,CWE-362
 CVE-2014-4653,CWE-416
 CVE-2014-4654,CWE-416

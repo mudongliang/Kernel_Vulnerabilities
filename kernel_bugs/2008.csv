@@ -1,4 +1,4 @@
-CVE-2008-0001,"$VFS in the Linux kernel before 2.6.22.16, and 2.6.23.x before 2.6.23.14, performs tests of access mode by using the flag variable instead of the acc_mode variable, which might allow local users to bypass intended permissions and remove directories.$"
+CVE-2008-0001,"VFS in the Linux kernel before 2.6.22.16, and 2.6.23.x before 2.6.23.14, performs tests of access mode by using the flag variable instead of the acc_mode variable, which might allow local users to bypass intended permissions and remove directories.$"
 CVE-2008-0007,CWE-399
 CVE-2008-0009,CWE-20
 CVE-2008-0010,CWE-20
@@ -36,7 +36,7 @@ CVE-2008-3528,CWE-264
 CVE-2008-3534,NVD-CWE-noinfo,CWE-399
 CVE-2008-3535,NVD-CWE-noinfo,CWE-189
 CVE-2008-3686,CWE-399
-CVE-2008-3792,"$net/sctp/socket.c in the Stream Control Transmission Protocol (sctp) implementation in the Linux kernel before 2.6.26.4 does not verify that the SCTP-AUTH extension is enabled before proceeding with SCTP-AUTH API functions, which allows attackers to cause a denial of service (NULL pointer dereference and panic) via vectors that result in calls to (1) sctp_setsockopt_auth_chunk, (2) sctp_setsockopt_hmac_ident, (3) sctp_setsockopt_auth_key, (4) sctp_setsockopt_active_key, (5) sctp_setsockopt_del_key, (6) sctp_getsockopt_maxburst, (7) sctp_getsockopt_active_key, (8) sctp_getsockopt_peer_auth_chunks, or (9) sctp_getsockopt_local_auth_chunks.$"
+CVE-2008-3792,"net/sctp/socket.c in the Stream Control Transmission Protocol (sctp) implementation in the Linux kernel before 2.6.26.4 does not verify that the SCTP-AUTH extension is enabled before proceeding with SCTP-AUTH API functions, which allows attackers to cause a denial of service (NULL pointer dereference and panic) via vectors that result in calls to (1) sctp_setsockopt_auth_chunk, (2) sctp_setsockopt_hmac_ident, (3) sctp_setsockopt_auth_key, (4) sctp_setsockopt_active_key, (5) sctp_setsockopt_del_key, (6) sctp_getsockopt_maxburst, (7) sctp_getsockopt_active_key, (8) sctp_getsockopt_peer_auth_chunks, or (9) sctp_getsockopt_local_auth_chunks.$"
 CVE-2008-3831,CWE-399
 CVE-2008-3833,CWE-264
 CVE-2008-3911,CWE-119
@@ -55,7 +55,7 @@ CVE-2008-4618,CWE-20,NVD-CWE-noinfo
 CVE-2008-4933,CWE-119
 CVE-2008-4934,CWE-20
 CVE-2008-5025,CWE-119
-CVE-2008-5029,"$The __scm_destroy function in net/core/scm.c in the Linux kernel 2.6.27.4, 2.6.26, and earlier makes indirect recursive calls to itself through calls to the fput function, which allows local users to cause a denial of service (panic) via vectors related to sending an SCM_RIGHTS message through a UNIX domain socket and closing file descriptors.$"
+CVE-2008-5029,"The __scm_destroy function in net/core/scm.c in the Linux kernel 2.6.27.4, 2.6.26, and earlier makes indirect recursive calls to itself through calls to the fput function, which allows local users to cause a denial of service (panic) via vectors related to sending an SCM_RIGHTS message through a UNIX domain socket and closing file descriptors.$"
 CVE-2008-5033,CWE-399
 CVE-2008-5079,CWE-399
 CVE-2008-5134,CWE-119
@@ -67,5 +67,5 @@ CVE-2008-5701,CWE-189
 CVE-2008-5702,CWE-119
 CVE-2008-5713,CWE-399
 CVE-2008-6107,CWE-399
-CVE-2008-7256,"$mm/shmem.c in the Linux kernel before 2.6.28-rc8, when strict overcommit is enabled and CONFIG_SECURITY is disabled, does not properly handle the export of shmemfs objects by knfsd, which allows attackers to cause a denial of service (NULL pointer dereference and knfsd crash) or possibly have unspecified other impact via unknown vectors.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2010-1643.$"
+CVE-2008-7256,"mm/shmem.c in the Linux kernel before 2.6.28-rc8, when strict overcommit is enabled and CONFIG_SECURITY is disabled, does not properly handle the export of shmemfs objects by knfsd, which allows attackers to cause a denial of service (NULL pointer dereference and knfsd crash) or possibly have unspecified other impact via unknown vectors.  NOTE: this vulnerability exists because of an incomplete fix for CVE-2010-1643.$"
 CVE-2008-7316,CWE-20
