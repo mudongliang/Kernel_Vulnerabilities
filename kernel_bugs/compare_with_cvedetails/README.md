@@ -1,5 +1,5 @@
-We did statistics based on NVD's data,
-specifically, the json files contianing CVE information.
+We did statistics based on NVD Json Vulnerability Feed,
+specifically, its json files contianing CVE information.
 ### Our Results
 Compared to [CVE_Details](https://www.cvedetails.com/vendor/33/Linux.html)'s 
 CVE Statistics on Linux from 2010-2018,
