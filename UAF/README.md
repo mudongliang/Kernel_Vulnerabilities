@@ -1,6 +1,6 @@
 # Use After Free(CWE-416) and Double Free(CWE-415) in the Linux Kernel
 
-## Sort by  Year
+## Sort by Year
 
 ### 2018
  
